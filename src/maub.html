@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy RPG Week Schedule</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <script defer src="script.js"></script> <!-- Link to JavaScript file -->
+</head>
+<body class="scroll-background">
+
+<header class="medieval-header">
+    <h1>Quest Log: Weekly Planner</h1>
+    <p class="tagline">Plan your adventures and manage your quests!</p>
+</header>
+
+<div class="week-schedule" id="weekSchedule">
+    <!-- Days are dynamically generated here -->
+</div>
+
+<div class="task-form">
+    <h2>Add New Quest</h2>
+    <form id="taskForm">
+        <label for="daySelect">Select Day:</label>
+        <select id="daySelect">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+
+        <label for="taskTitle">Quest Title:</label>
+        <input type="text" id="taskTitle" required>
+
+        <label for="taskTime">Time:</label>
+        <input type="text" id="taskTime" placeholder="e.g., 9:00 AM - 11:00 AM" required>
+
+        <label for="taskDetails">Quest Details:</label>
+        <textarea id="taskDetails" rows="4" required></textarea>
+
+        <button type="submit">Add Quest</button>
+    </form>
+</div>
+
+<footer class="medieval-footer">
+    <p>Made for adventurers by the Ancient Scrolls Society &copy; 2024</p>
+</footer>
+
+</body>
+</html>

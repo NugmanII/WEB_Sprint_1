@@ -1,0 +1,117 @@
+body.scroll-background {
+    background: url('images/parchment.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Cinzel', serif; /* Fantasy style font */
+    color: #3e2723;
+    padding: 0;
+    margin: 0;
+}
+
+.medieval-header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 5px solid #7e5109;
+}
+
+.medieval-header h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 3em;
+}
+
+.week-schedule {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.rpg-day {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid #7e5109;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.rpg-day h2.day-title {
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.task-box {
+    border: 2px dashed #b07130;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 248, 220, 0.8);
+    border-radius: 8px;
+    position: relative;
+}
+
+.task-box h3.task-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+}
+
+.task-box p.task-time, .task-box p.task-details {
+    margin: 5px 0;
+}
+
+.delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.task-form {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid #7e5109;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.task-form h2 {
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.task-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.task-form input, .task-form textarea, .task-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #7e5109;
+    border-radius: 5px;
+}
+
+.task-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7e5109;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #b07130;
+}
